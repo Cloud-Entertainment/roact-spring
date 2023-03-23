@@ -1,0 +1,17 @@
+[package]
+name = "cloud-entertainment/react-spring"
+description = "A modern spring-physics based animation library for Roact inspired by react-spring"
+version = "1.1.31"
+license = "MIT"
+authors = ["chriscerie"]
+registry = "https://github.com/Cloud-Entertainment/wally-index"
+realm = "shared"
+exclude = ["wally.exe"]
+
+[dependencies]
+Promise = "evaera/promise@^4.0"
+React ="core-packages/react@17.0.1-rc.16"
+ReactRoblox = "core-packages/react-roblox@17.0.1-rc.16"
+
+[dev-dependencies]
+TestEZ = "roblox/testez@^0.4"
